@@ -5,14 +5,62 @@
         url(Inter-subset.woff) format("woff"), 
         url(Inter-subset.ttf) format("truetype");
         unicode-range: U+20,U+21,U+28,U+29,U+2B,U+2C,U+2E,U+31,U+32,U+39,U+3F-41,U+43,U+44,U+48,U+49,U+4C-4E,U+53,U+57,U+61-70,U+72-77,U+79,U+7A;
+        font-weight: 100 800;
 }
 
 * {
-   font-family: Inter;
+   font-family: Inter, sans-serif;
    font-size: 1rem;
+   font-weight: 400;
    line-height: 1.5;
 }
 
-.main {
+/* TYPE SCALE*/
+
+/* 1rem/16.00px  */
+/* 1.25rem/20.00px  */
+/* 1.563rem/25.00px */
+/* 1.953rem/31.25px */
+/* 2.441rem/39.06px */
+/* 3.052rem/48.83px*/
+
+
+/* COLORS */
+
+/* black #001219 */
+/* dark blue #005F73 */
+/* turquoise #0A9396 */
+/* light turquoise #94D2BD */
+/* light yellow #E9D8A6 */
+/* dark yellow #E9D8A6 */
+/* orange #E9D8A6 */
+/* dark orange #BB3E03 */
+/* red #AE2012 */
+/* dark red #9B2226 */
+
+body {
     margin: 4rem;
 }
+
+h1 {
+    font-size: 3.052rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.563rem;
+    font-weight: 500;
+}
+
+.emp {
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 2;
+}
+
