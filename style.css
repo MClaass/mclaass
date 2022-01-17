@@ -38,23 +38,49 @@
 /* red #AE2012 */
 /* dark red #9B2226 */
 
+body,
+.main,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 4rem;
 }
 
 h1 {
     font-size: 3.052rem;
+    margin-bottom: 0.5rem;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 1.563rem;
+    font-size: 1.953rem;
     font-weight: 500;
+}
+
+h3 {
+    font-size: 1.563rem;
+    font-weight: 450;
+}
+
+h2 span {
+    font-size: inherit;
+    font-weight: 200;
+}
+
+h3 span {
+    font-size: inherit;
+    font-weight: 300;
 }
 
 .emp {
     font-weight: 500;
 }
+
 
 ul {
     list-style-type: none;
@@ -64,3 +90,48 @@ li {
     line-height: 2;
 }
 
+.main {
+    margin: 3.052rem;
+    display: grid;
+    grid-template-columns: 15vw 25vw 25vw auto;
+    grid-template-rows: auto;
+    column-gap: 3rem;
+    row-gap: 1rem;
+    grid-template-areas:
+    " logo header header ."
+    " . intro intro ."
+    " . realtime realtime .  "
+    " . backgroundInfo backgroundInfo . "
+    " . contact contact . ";
+}
+
+.logo {
+    grid-area: logo;
+    position: relative;
+}
+
+.header {
+    grid-area: header;
+}
+
+.intro {
+    grid-area: intro;
+    padding-top: 3rem;
+}
+
+.realtime {
+    grid-area: realtime;
+}
+
+.background {
+    grid-area: backgroundInfo;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
