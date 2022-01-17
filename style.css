@@ -93,7 +93,7 @@ li {
 .main {
     margin: 3.052rem;
     display: grid;
-    grid-template-columns: 15vw 25vw 25vw auto;
+    grid-template-columns: 200px 25vw 25vw auto;
     grid-template-rows: auto;
     column-gap: 3rem;
     row-gap: 1rem;
