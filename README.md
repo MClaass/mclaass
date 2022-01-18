@@ -1,16 +1,16 @@
-### Hi there 👋
+## Hello! 👋
 
-<!--
-**MClaass/mclaass** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a frontend developer specializing in interactive data visualisations.
 
-Here are some ideas to get you started:
+Currently I'm working on creating generative art using P5js :D
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I have been working with:
+
+- Javascript / Typescript
+- CSS, SASS & PostCSS
+- Vue
+- GraphQL & Rest API's
+- Managing complex frontend applications
+- and I dabbled a bit in Go along the way
+
+I really love this talk about the [Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U) by Dylan Beattie, and hope to be cool enough someday to create my own programming language 😊
