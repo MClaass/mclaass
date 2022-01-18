@@ -10,7 +10,7 @@
 
 * {
    font-family: Inter, sans-serif;
-   font-size: 1rem;
+   font-size: 16px;
    font-weight: 400;
    line-height: 1.5;
 }
@@ -93,7 +93,7 @@ li {
 .main {
     margin: 3.052rem;
     display: grid;
-    grid-template-columns: 200px 25vw 25vw auto;
+    grid-template-columns: 200px minmax(200px, 400px) minmax(200px, 400px) auto;
     grid-template-rows: auto;
     column-gap: 3rem;
     row-gap: 1rem;
@@ -133,5 +133,34 @@ li {
 
 svg {
     width: 100%;
+    max-width: 250px;
     height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .main {
+        margin: 1rem;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            " logo "
+            " header"
+            " intro "
+            " realtime"
+            " backgroundInfo"
+            " contact ";
+        }
+
+    svg {
+        max-width: 175px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 12px;
+    }
+
+    svg {
+        max-width: 125px;
+    }
 }
