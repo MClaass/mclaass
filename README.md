@@ -6,10 +6,10 @@ Currently I'm working on creating generative art using P5js :D
 
 I have been working with:
 
-- Javascript / Typescript
+- Javascript & Typescript
 - CSS, SASS & PostCSS
-- Vue
-- GraphQL & Rest API's
+- Vue, Vue router & Vuex 
+- GraphQL & REST API's
 - Managing complex frontend applications
 - and I dabbled a bit in Go along the way
 
