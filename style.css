@@ -121,19 +121,25 @@ a.icon-link:focus {
     color: #BB3E03;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .main {
     margin: 3.052rem;
     display: grid;
-    grid-template-columns: 200px minmax(200px, 400px) minmax(200px, 400px) auto;
+    grid-template-columns: 200px minmax(200px, 400px) minmax(200px, 400px);
     grid-template-rows: auto;
     column-gap: 3rem;
     row-gap: 1rem;
     grid-template-areas:
-    " logo header header ."
-    " . intro intro ."
-    " . coding coding .  "
-    " . backgroundInfo backgroundInfo . "
-    " . contact contact . ";
+    " logo header header"
+    " . intro intro"
+    " . coding coding"
+    " . backgroundInfo backgroundInfo"
+    " . contact contact";
 }
 
 .logo {
