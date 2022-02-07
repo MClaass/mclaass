@@ -95,15 +95,32 @@ li {
 a,
 a:visited {
     text-decoration: none;
+    color: #0A9396;
+    transition: color 150ms ease-in;
+    position: relative;
+}
+
+a.icon-link,
+a.icon-link:visited {
     color: #001219;
-    transition: color 150ms cubic;
+}
+
+a:not(.icon-link)::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: currentColor;
 }
 
 a:hover,
-a:focus {
+a:focus,
+a.icon-link:hover,
+a.icon-link:focus {
     color: #BB3E03;
 }
-
 
 .main {
     margin: 3.052rem;
@@ -189,7 +206,6 @@ svg {
 .socials li {
     padding: 0 1rem;
 }
-
 .socials li:first-child {
     padding-left: 0;
 }
