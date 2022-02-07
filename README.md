@@ -1,6 +1,6 @@
 ## Hello! 👋
 
-I'm a frontend developer specializing in interactive data visualisations.
+I'm a frontend developer specializing in interactive data visualisations & creative coding.
 
 Currently I'm working on creating generative art using P5js :D
 
