@@ -84,10 +84,42 @@ h3 span {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
     line-height: 2;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #0A9396;
+    transition: color 150ms ease-in;
+    position: relative;
+}
+
+a.icon-link,
+a.icon-link:visited {
+    color: #001219;
+}
+
+a:not(.icon-link)::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: currentColor;
+}
+
+a:hover,
+a:focus,
+a.icon-link:hover,
+a.icon-link:focus {
+    color: #BB3E03;
 }
 
 .main {
@@ -164,3 +196,20 @@ svg {
         max-width: 125px;
     }
 }
+
+.socials {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.socials li {
+    padding: 0 1rem;
+}
+.socials li:first-child {
+    padding-left: 0;
+}
+
+.fab {
+    font-size: 1.563rem;
+ }
