@@ -151,14 +151,14 @@ body {
     position: relative;
 }
 
-.main::after {
+.main::before {
     content: "";
     position: absolute;
-    top: 10vh;
-    left: 0;
-    right: 0;
+    top: -8rem;
+    left: -7rem;
+    width: 100%;
     height: 100%;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1240 542'%3E%3Cpath fill='%2394D2BD' d='M151.417 234.25 1239.292.175l-49.247 339.545L.708 541.824z' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 871 1585'%3E%3Cpath fill='%230A9396' d='M101 271 203 70l569 213V76L682 0 0 879l871 550L500.833 1584.5 311 879z' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
@@ -267,9 +267,8 @@ body {
             " contact ";
     }
 
-    .main::after {
-        top: 28vh;
-        background-size: contain;
+    .main::before {
+        height: 84vh;
     }
 
     .coding::after {
