@@ -121,10 +121,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5rem 0;
 }
 
 .main {
+    margin: 3rem 0 5rem;
     display: grid;
     grid-template-columns: 200px minmax(200px, 400px) minmax(200px, 400px);
     grid-template-rows: auto;
