@@ -61,6 +61,18 @@ h2 {
 h3 {
     font-size: 1.563rem;
     font-weight: 450;
+    position: relative;
+    display: inline-block;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 1.5rem ) ;
+    height: 3px;
+    left: -0.5rem;
+    top: 100%;
+    background-color: #AE2012;
 }
 
 h2 span {
