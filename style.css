@@ -133,7 +133,7 @@ body {
     grid-template-columns: 200px minmax(200px, 400px) minmax(200px, 400px);
     grid-template-rows: auto;
     column-gap: 3rem;
-    row-gap: 1rem;
+    row-gap: 5rem;
     grid-template-areas:
     " logo header header"
     " . intro intro"
@@ -153,7 +153,6 @@ body {
 
 .intro {
     grid-area: intro;
-    padding-top: 3rem;
 }
 
 .coding {
@@ -168,7 +167,7 @@ body {
     grid-area: contact;
 }
 
-svg {
+.logo svg {
     width: 100%;
     max-width: 250px;
     height: auto;
@@ -178,11 +177,13 @@ svg {
     .main {
         margin: 1rem;
         grid-template-columns: 100%;
+        column-gap: 0;
+        row-gap: 3rem;
         grid-template-areas:
             " logo "
             " header"
             " intro "
-            " realtime"
+            " coding "
             " backgroundInfo"
             " contact ";
         }
@@ -217,4 +218,4 @@ svg {
 
 .fab {
     font-size: 1.563rem;
- }
+}
