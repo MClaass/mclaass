@@ -136,6 +136,20 @@ body {
     " . coding coding"
     " . backgroundInfo backgroundInfo"
     " . contact contact";
+    position: relative;
+}
+
+.main::after {
+    content: "";
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1240 542'%3E%3Cpath fill='%2394D2BD' d='M151.417 234.25 1239.292.175l-49.247 339.545L.708 541.824z' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
 }
 
 .logo {
@@ -219,7 +233,12 @@ body {
             " coding "
             " backgroundInfo"
             " contact ";
-        }
+    }
+
+    .main::after {
+        top: 30vh;
+        background-size: contain;
+    }
 
     .contact::after {
         left: -5rem;
