@@ -90,15 +90,15 @@ li {
 a,
 a:visited {
     text-decoration: none;
-    color: #0A9396;
+    color: currentColor;
     transition: color 150ms ease-in;
     position: relative;
 }
 
-a.icon-link,
+/* a.icon-link,
 a.icon-link:visited {
     color: #001219;
-}
+} */
 
 a:not(.icon-link)::after {
     content: "";
@@ -114,7 +114,7 @@ a:hover,
 a:focus,
 a.icon-link:hover,
 a.icon-link:focus {
-    color: #BB3E03;
+    color: #005F73;
 }
 
 body {
@@ -161,6 +161,38 @@ body {
 
 .contact {
     grid-area: contact;
+    position: relative;
+    color: #ffffff;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    top: -5rem;
+    bottom: -5rem;
+    left: calc(-1 * (200px + 3rem));
+    right: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 324'%3E%3Cpath d='m0 0 1034 117 246-66v178l-536 95-547-55H0' fill='%23bb3e03' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.socials li {
+    padding: 0 1rem;
+}
+.socials li:first-child {
+    padding-left: 0;
+}
+
+.fab {
+    font-size: 1.563rem;
 }
 
 .logo svg {
@@ -189,6 +221,12 @@ body {
             " contact ";
         }
 
+    .contact::after {
+        left: -5rem;
+        right: -5rem;
+        top: -3rem;
+    }
+
     svg {
         max-width: 175px;
     }
@@ -202,21 +240,4 @@ body {
     svg {
         max-width: 125px;
     }
-}
-
-.socials {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-.socials li {
-    padding: 0 1rem;
-}
-.socials li:first-child {
-    padding-left: 0;
-}
-
-.fab {
-    font-size: 1.563rem;
 }
