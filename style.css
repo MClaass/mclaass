@@ -47,10 +47,6 @@ h3 {
     padding: 0;
 }
 
-body {
-    margin: 4rem;
-}
-
 h1 {
     font-size: 3.052rem;
     margin-bottom: 0.5rem;
@@ -125,10 +121,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 5rem 0;
 }
 
 .main {
-    margin: 3.052rem;
     display: grid;
     grid-template-columns: 200px minmax(200px, 400px) minmax(200px, 400px);
     grid-template-rows: auto;
@@ -173,9 +169,14 @@ body {
     height: auto;
 }
 
+@media only screen and (max-width: 1150px) {
+    .main {
+        margin: 2rem;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .main {
-        margin: 1rem;
         grid-template-columns: 100%;
         column-gap: 0;
         row-gap: 3rem;
