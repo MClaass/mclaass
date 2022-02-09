@@ -150,6 +150,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .main {
@@ -285,7 +286,10 @@ body {
     }
 
     .main::before {
-        height: 84vh;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 686 422'%3E%3Cpath fill='%230A9396' d='M84.111 29.81 232.042.696 494.99 148.558l142.266 79.14 48.238 193.869L534.891 309.76 487.395 71.203 26.404 207.416.81 118.514z' fill-rule='evenodd'/%3E%3C/svg%3E");
+        width: 155%;
+        top: -2rem;
+        left: -8rem;
     }
 
     .coding::after {
