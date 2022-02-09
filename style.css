@@ -217,7 +217,7 @@ body {
 }
 
 .background {
-    margin-top: -3rem;
+    margin: -3rem 0 2rem 0;
     grid-area: backgroundInfo;
 }
 
