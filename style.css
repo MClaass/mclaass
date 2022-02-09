@@ -234,7 +234,7 @@ body {
     bottom: -5rem;
     left: calc(-1 * (200px + 3rem));
     right: 0;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 324'%3E%3Cpath d='m0 0 1034 117 246-66v178l-536 95-547-55H0' fill='%23bb3e03' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 311'%3E%3Cpath d='M13 122 116.398.17 1034 104l246-66v178l-536 95-547-55H0' fill='%23BB3E03' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
