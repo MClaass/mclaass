@@ -10,7 +10,6 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "eslint": "^8.8.0",
         "graph-art": "^1.0.0"
     },
     "devDependencies": {
