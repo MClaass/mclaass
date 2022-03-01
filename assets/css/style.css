@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Inter";
     src:
-        url(Inter-subset.woff2) format("woff2"), 
-        url(Inter-subset.woff) format("woff"), 
-        url(Inter-subset.ttf) format("truetype");
+        url(/../fonts/Inter-subset.woff2) format("woff2"), 
+        url(/../fonts/Inter-subset.woff) format("woff"), 
+        url(/../fonts/Inter-subset.ttf) format("truetype");
         unicode-range: U+20,U+21,U+28,U+29,U+2B,U+2C,U+2E,U+31,U+32,U+39,U+3F-41,U+43,U+44,U+48,U+49,U+4C-4E,U+53,U+57,U+61-70,U+72-77,U+79,U+7A;
         font-weight: 100 800;
 }
