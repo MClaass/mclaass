@@ -1,0 +1,13 @@
+{
+    "name": "mclaass",
+    "version": "1.0.0",
+    "main": "index.html",
+    "repository": "https://github.com/MClaass/mclaass.git",
+    "author": "Marieke Claassens <hallo@mclaass.nl>",
+    "scripts": {
+        "serve": "browser-sync start --server . --files ."
+    },
+    "devDependencies": {
+        "browser-sync": "^2.27.7"
+    }
+}
