@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.f18a8dcc.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graph-art Playground</title>
+    <script type="module" crossorigin src="./assets/index.50d32870.js"></script>
+    <link rel="modulepreload" href="./assets/vendor.306de43e.js">
+    <link rel="stylesheet" href="./assets/index.d06af8eb.css">
+    </head>
+
+<body>
+    <div class="content">
+        <div class="explanation">
+            <h1>Graphs visualised </h1>
+            <p>
+                The inspiration for this project comes from <a
+                    href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)">Graphs</a>, a mathematical
+                structure in which all elements, known as <b>nodes</b>, are related. Relations are marked with lines
+                connecting the nodes, also called <b>edges</b>.
+            </p>
+            <p>
+                The relationships in this graph are visualised by creating a 50/50 color blend based on the colors of the
+                connecting the nodes.
+            </p>
+            <p>
+                New nodes will be added to the graph when clicking inside the structure. This will also generate new
+                relations based on the adjacent nodes. Clicking on an existing node will remove the node and it's relations.
+            </p>
+            <p>
+                Whenever the page gets refreshed, a new graph will be generated using random coordinates for every new node.
+                A balanced graph is created by limiting the distance between adjacent nodes. This can be adjusted to create balanced
+                graphs in all sizes.
+            </p>
+        </div>
+        <main id="canvasContainer"></main>
+        <p class="footer">Created by: <a href="https://www.linkedin.com/in/mclaassens/">Marieke Claassens</a> | <a
+                href="https://mclaass.nl/">
+                MClaass</a></p>
+    </div>
+    
+</body>
+
+</html>
