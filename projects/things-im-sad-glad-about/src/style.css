@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    padding: 3rem;
+    width: 100vw;
+    overflow: hidden;
+    background: #C64848;
+    animation: colorChange 15s 1s forwards infinite cubic-bezier(0.47, 0, 0.72, 0.73);
+}
+
+@keyframes colorChange {
+    0% {
+        background: #C64848;
+    }
+    20% {
+        background: #ADC648;
+    }
+    40% {
+        background: #48C67A;
+    }
+    60% {
+        background: #487AC6;
+    }
+    80% {
+        background: #AD48C6;
+    }
+    100% {
+        background: #C64848;
+    }
+}
+
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    background: #fff;
+    padding: 1.5rem;
+    z-index: 10;
+}
+
+.background {
+    position: absolute;
+    top: -25px;
+    left: 15vw;
+}
+
+.background > svg {
+    height: auto;
+    width: 50vw;
+}
+
+@media only screen and (max-width: 1100px) {
+    .background > svg {
+        width: auto;
+        height: 100vh;
+    }
+}
+
+.poem_overview {
+    margin: 0;
+    padding: 0;
+}
+
+.poem_overview li {
+    list-style-type: none;
+    margin: 1rem 0;
+}
+
+.happy,
+.sad {
+    color: #fff;
+    padding: 4px 8px;
+    background: #414040;
+}
+
+.sad {
+    margin-top: 4px;
+    display: inline-block;
+}
+
+footer {
+    position: fixed;
+    bottom: 3rem;
+    left: 3rem;
+    background: #fff;
+    padding: 0.5rem 3rem;
+    /* transform: translateX(-50%); */
+}
