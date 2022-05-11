@@ -1,0 +1,60 @@
+
+body {
+    background-color: #840E00;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.black-hole {
+    height: 100vh;
+    width: auto;
+}
+
+.poem-title {
+    margin: 2rem 0;
+}
+
+.poem {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.background {
+    animation: scale 35s 1s forwards cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+footer {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1.5rem;
+}
+
+.back {
+    color: #fff;
+}
+
+.back:visited: {
+    color: #fff;
+}
+
+@keyframes scale {
+    0% {    
+        transform: scale(1) rotate(0deg)
+    }
+    100% { 
+        transform: scale(3) rotate(55deg)
+    }
+}
