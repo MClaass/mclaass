@@ -1,7 +1,6 @@
 ## Hello! 👋
 
-I'm a frontend developer specializing in interactive data visualisations & creative coding.
-
+I'm a frontend developer working on different SAAS solutions. I really enjoy making creative stuff with code. 
 Currently I'm working on creating generative art using P5js :D
 
 I have been working with:
