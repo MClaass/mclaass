@@ -1,6 +1,6 @@
 ## Hello! 👋
 
-I'm a frontend developer working on different SAAS solutions. I really enjoy making creative stuff with code. 
+As a frontend developer I have been working on multiple SaaS products. I really enjoy making creative stuff with code. 
 Currently I'm working on creating generative art using P5js :D
 
 I have been working with:
