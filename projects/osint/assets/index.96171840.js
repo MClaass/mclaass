@@ -5297,7 +5297,7 @@ cn.set(3, "gorillas");
 cn.set(4, "thuisbezorgd");
 cn.set(5, "deliveroo");
 cn.set(6, "jumbo");
-const Tm = (e) => (Mn("data-v-68b6af79"), (e = e()), jn(), e),
+const Tm = (e) => (Mn("data-v-30c1b367"), (e = e()), jn(), e),
     Rm = { class: "popup-overlay" },
     Nm = { class: "popup" },
     Mm = { class: "popup-heading" },
@@ -5340,7 +5340,7 @@ const Tm = (e) => (Mn("data-v-68b6af79"), (e = e()), jn(), e),
                             L("div", jm, [
                                 Lm,
                                 L("div", $m, [
-                                    L("input", { ref_key: "password", ref: r, type: "text", class: "password-input" }, null, 512),
+                                    L("input", { ref_key: "password", ref: r, type: "password", class: "password-input" }, null, 512),
                                     L("button", { class: "validate", onClick: i }, "Controleer wachtwoord"),
                                 ]),
                                 n.value.length > 0 ? (me(), xe("p", zm, qr(n.value), 1)) : pi("", !0),
@@ -5351,7 +5351,7 @@ const Tm = (e) => (Mn("data-v-68b6af79"), (e = e()), jn(), e),
             );
         },
     };
-var Dm = et(Fm, [["__scopeId", "data-v-68b6af79"]]);
+var Dm = et(Fm, [["__scopeId", "data-v-30c1b367"]]);
 const Hm = { class: "page-content" },
     Bm = {
         __name: "App",
